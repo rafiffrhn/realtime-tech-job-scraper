@@ -1,0 +1,14 @@
+# Lingkungan Python
+__pycache__/
+*.py[cod]
+venv/
+.venv/
+
+# Airflow & Docker
+logs/
+airflow-webserver.pid
+postgres_db_volume/
+.env
+
+# File Log Scrapy
+*.log
